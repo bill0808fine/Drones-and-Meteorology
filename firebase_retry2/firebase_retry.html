@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+  <head>
+    <link rel="stylesheet" href="style.css" type="text/css">
+
+    <h5>NSYSU PM2.5  Data<p><p></h5><br><br>
+
+  </head>
+
+  <body>
+    <link rel="stylesheet" href="style.css" type="text/css">
+<!--
+    位置:<span id="position">_</span><p>
+    pm2.5指數:<span id="averagepm25">_</span><p>
+    嚴重性:<span id="degree">_</span><p>
+    <button onclick="checkall()"><h1>checkall</h1></button><br><br>
+    <button onclick="checkdata()"><h1>check data</h1></button><br><br>-->
+    <div>
+    <button onclick="attachdata()" id="submitButton"><h1>renew data !</h1></button><br><br>
+    </div>
+    <!--<script language="javascript">attachdata();</script>-->
+    <table id="displayData" class="table">
+      <tr>
+        <th align="middle">Position</td>
+        <th align="middle">pm2.5(ug/m3)</td>
+        <th align="middle">degree</td>
+        <th align="middle">collect time</td>
+      </tr>
+    </table>
+
+    <!--<p id="data">data<p>-->
+
+    <script src="https://www.gstatic.com/firebasejs/5.0.4/firebase.js"></script>
+    <script src="index.js"></script>
+
+
+  </body>
+
+</html>
